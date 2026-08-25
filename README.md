@@ -10,6 +10,10 @@ The dashboard provides a clear view of sales performance across **product catego
 
 This project demonstrates practical skills in **data cleaning, Power Query, DAX, data analysis, visualization, and Power BI dashboard development**.
 
+## 📷 Dashboard Preview
+
+![BlinkIT Grocery Sales Dashboard](dashboard.png)
+
 ## 🎯 Project Objectives
 
 The main objectives of this project are to:
