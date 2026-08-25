@@ -72,21 +72,44 @@ The main data preparation steps included:
 
 One example of data cleaning was correcting the inconsistent **“Regularular”** value to **“Regular”** in the Fat Content field.
 
+
 ## 🧮 DAX Measures
 
-Several DAX measures were created for the dashboard KPIs:
+Several DAX measures were created for the dashboard KPIs.
+
+### Total Sales
 
 ```DAX
 Total Sales = SUM('BlinkIT Grocery Data'[Sales])
+```
 
+### Average Sales
+
+```DAX
 Average Sales = AVERAGE('BlinkIT Grocery Data'[Sales])
+```
 
+### Total Items
+
+```DAX
 Total Items = COUNTROWS('BlinkIT Grocery Data')
+```
 
+### Total Stores
+
+```DAX
 Total Stores = DISTINCTCOUNT('BlinkIT Grocery Data'[Store ID])
+```
 
+### Average Rating
+
+```DAX
 Average Rating = AVERAGE('BlinkIT Grocery Data'[Customer Rating])
+```
 
+### Total Products
+
+```DAX
 Total Products = DISTINCTCOUNT('BlinkIT Grocery Data'[Product ID])
 ```
 
