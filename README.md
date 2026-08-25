@@ -234,17 +234,11 @@ Business Insights
 ## 📂 Project Structure
 
 ```text
-BlinkIT-Grocery-Sales-Dashboard/
+Blinkit-Grocery-Sales-Dashboard/
 │
-├── data/
-│   └── BlinkIT Grocery Data(1).xlsx
-│
-├── dashboard/
-│   └── Blinkit.pbix
-│
-├── images/
-│   └── dashboard-screenshot.png
-│
+├── BlinkIT Grocery Data.xlsx
+├── Blinkit.pbix
+├── dashboard.png
 └── README.md
 ```
 
